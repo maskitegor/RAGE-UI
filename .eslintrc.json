@@ -1,6 +1,7 @@
 {
-  "extends": "react-app",
-  "globals": {
-    "mp": true
-  }
+	"extends": "react-app",
+	"globals": {
+		"mp": true,
+		"state": "writable"
+	}
 }
