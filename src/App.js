@@ -28,34 +28,34 @@ import Tatoo from './components/hudmenus/tatoo/Tatoo';
 import GovMenu from './components/govmenu/GovMenu';
 
 function App() {
-  return (
-    <React.Fragment>
-      <EditorMain />      
-      <CircleMenu />
-      <Walkietalkie />
-      <div className="box" id="box">        
-        <AuthMain />
-        <Inventory />
-        <Phone />
-        <AccountMenu />
-        <GunShop />
-        <CarRent />
-        <Dialog />
-        <Tatoo />
-        <Hud />
-        <IDCard />
-        <GovMenu />
-        <WorkID />
-        <License />
-        <Certificate />        
-        <ModalInput />
-        <Notification />
-        <CarShop />
-        <Monopoly />
-        <Quickmenu />
-        </div>
-    </React.Fragment>
-  );
+	return (
+		<>
+			<EditorMain />
+			<CircleMenu />
+			<Walkietalkie />
+			<div className="box" id="box">
+				<AuthMain />
+				<Inventory />
+				<Phone />
+				<AccountMenu />
+				<GunShop />
+				<CarRent />
+				<Dialog />
+				<Tatoo />
+				<Hud />
+				<IDCard />
+				<GovMenu />
+				<WorkID />
+				<License />
+				<Certificate />
+				<ModalInput />
+				<Notification />
+				<CarShop />
+				<Monopoly />
+				<Quickmenu />
+			</div>
+		</>
+	);
 }
 
 export default App;
